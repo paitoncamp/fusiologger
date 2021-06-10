@@ -1,0 +1,21 @@
+{
+    "name": "paitoncamp/fusiologger",
+    "description": "a simple fusio logger library by composer package",
+    "type": "library",
+    "require": {
+        "doctrine/dbal": "^3.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Paitoncamp\\Fusiologger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "paitoncamp",
+            "email": "paitoncamp@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
