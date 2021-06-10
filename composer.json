@@ -3,7 +3,7 @@
     "description": "a simple fusio logger library by composer package",
     "type": "library",
     "require": {
-        "doctrine/dbal": "^2.12"
+        "doctrine/dbal": "^2.11"
     },
     "license": "MIT",
     "autoload": {
