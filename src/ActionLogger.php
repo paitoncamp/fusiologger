@@ -1,6 +1,6 @@
 <?php
 
-namespace Paitoncamp\FusioLogger;
+namespace Paitoncamp\Fusiologger;
 
 use Doctrine\DBAL\Connection;
 
