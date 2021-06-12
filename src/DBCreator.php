@@ -31,11 +31,14 @@ class DBCreator
 
 		// Check if the database already exists
 		if (in_array($name, $tmpConnection->getSchemaManager()->listDatabases())) {
+			$this->dbCreatorLogger->log('Fail to create database '.$name. '!, its already exist!');
 			return;
 		}
 
 		// Create the database
+		
 		$tmpConnection->getSchemaManager()->createDatabase($name);
+		$this->dbCreatorLogger->log('Database '.$name. ' created!');
 		$tmpConnection->close();
 	}
 }
